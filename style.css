@@ -37,3 +37,30 @@ body {
     max-width: 100%;
     height: auto;
 }
+
+/* styles.css */
+
+.animated-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s, transform 1s;
+}
+
+.animated-image {
+    max-width: 100%;
+    height: auto;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s, transform 1s;
+}
+
+.animated-text {
+    font-size: 24px;
+    margin: 10px 0;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s, transform 1s;
+}
+
