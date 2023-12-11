@@ -7,6 +7,7 @@ body {
 .content {
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -17,8 +18,19 @@ body {
     transition: opacity 1s, transform 1s;
 }
 
+.animate-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.animated-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
 .animated-text {
     font-size: 24px;
+    margin: 10px 0;
 }
 
 .animated-image {
